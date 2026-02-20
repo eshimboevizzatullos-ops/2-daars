@@ -1,0 +1,296 @@
+/* manrope-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/manrope-v20-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/manrope-v20-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/manrope-v20-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/manrope-v20-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/manrope-v20-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/manrope-v20-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+}
+
+body {
+  font-family: "Manrope";
+}
+
+nav {
+  height: 336px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 1111px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.a-tags {
+  max-width: 429px;
+  display: flex;
+  gap: 34px;
+  padding-left: -94px;
+
+  a {
+    color: #ffffff;
+    font-size: 13px;
+  }
+}
+
+.container-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: auto;
+  padding-top: 25px;
+  padding-bottom: 135px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 30px;
+  color: #ffffff;
+  padding-bottom: 104px;
+}
+
+.mark-2 {
+  display: flex;
+  max-width: 1111px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 218px;
+}
+
+.mark-2text {
+  max-width: 445px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  margin-left: 222px;
+
+  p {
+    padding-bottom: 16px;
+    color: #d87d4a;
+    font-weight: 500;
+    letter-spacing: 10px;
+  }
+
+  h2 {
+    padding-bottom: 30px;
+    font-size: 40px;
+  }
+
+  span {
+    padding-bottom: 42px;
+  }
+}
+
+button {
+  width: 160px;
+  padding: 15px 30px;
+  background-color: #d87d4a;
+  border: none;
+  color: #ffffff;
+}
+
+.mark-1 {
+  display: flex;
+  max-width: 1111px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 218px;
+}
+
+.mark-1text {
+  max-width: 445px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  margin-right: 222px;
+
+  h2 {
+    padding-bottom: 30px;
+    font-size: 40px;
+  }
+
+  span {
+    padding-bottom: 42px;
+  }
+}
+
+button {
+  width: 160px;
+  padding: 15px 30px;
+  background-color: #d87d4a;
+  border: none;
+  color: #ffffff;
+}
+
+.xx59 {
+  display: flex;
+  max-width: 1111px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 218px;
+}
+
+.xx59text {
+  max-width: 445px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  margin-left: 222px;
+
+  h2 {
+    padding-bottom: 30px;
+    font-size: 40px;
+  }
+
+  span {
+    padding-bottom: 42px;
+  }
+}
+
+button {
+  width: 160px;
+  padding: 15px 30px;
+  background-color: #d87d4a;
+  border: none;
+  color: #ffffff;
+}
+
+.info {
+  display: flex;
+  max-width: 1111px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 218px;
+  align-items: center;
+}
+
+.infotext {
+  max-width: 445px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  margin-right: 125px;
+
+  h2 {
+    padding-bottom: 30px;
+    font-size: 40px;
+  }
+
+  span {
+    color: #d87d4a;
+  }
+}
+
+footer {
+  background-color: black;
+  p {
+    color: #ffffff;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1111px;
+  padding-top: 75px;
+
+  .navbar {
+    padding-bottom: 36px;
+  }
+}
+
+.line2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 56px;
+
+  .web-icon {
+    display: flex;
+    gap: 16px;
+    align-items: end;
+  }
+}
+
+.foot-text {
+  max-width: 540px;
+}
+
+.end {
+  padding-bottom: 48px;
+}
